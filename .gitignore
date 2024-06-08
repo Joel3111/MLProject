@@ -34,12 +34,12 @@ Thumbs.db
 .AppleDouble
 .LSOverride
 
-# Allow the dataset, screenshots, and model to be uploaded
+# Allow the dataset and screenshots to be uploaded
 !dataset/
 !dataset/**
 !images/
 !*.png
-!*.h5
+*.h5
 
 # Allow the README and requirements files to be uploaded
 !README.md
