@@ -1,0 +1,46 @@
+# Ignore Python bytecode and other unnecessary files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore Jupyter Notebook configuration files
+.jupyter/
+
+# Ignore MacOS specific files
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Allow the dataset, screenshots, and model to be uploaded
+!dataset/
+!dataset/**
+!images/
+!*.png
+!*.h5
+
+# Allow the README and requirements files to be uploaded
+!README.md
+!requirements.txt
