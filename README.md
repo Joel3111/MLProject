@@ -48,6 +48,7 @@ By following these steps, you can set up and run the eye disease classification 
 1. **Data Preparation**:
 
    - Collected a dataset from Kaggle consisting of approximately 1000 images per class.
+   https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification/data 
    - Resized all images to 206x206 pixels to standardize input sizes for the model.
 
 2. **Data Augmentation**:
